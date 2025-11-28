@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.menu{ 
+    padding-left: 100px;
+    background-color: rgb(66, 66, 66);
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu input{
+    font-size: 20px;
+}
+/* head menu */
+.headMenu{
+    background-color: rgb(203, 221, 221);
+    padding-left: 100px;
+    display: flex;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 150px;
+}
+.headMenuLi ul{
+    display: flex;
+}
+.headMenuLi li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.headMenuButtons{
+    margin-top: 10px;
+}
+.headMenuButtons a{
+    color: white; 
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+.blueButton{
+    background-color: rgb(31, 145, 221);
+}
+.redButton{
+    background-color: rgb(231, 72, 40);
+}
+/* banner */
+.banner{
+    text-align: center;
+}
+/* card */
+.cardGames{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+.cardList{
+    width: 220px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 2px 2px 3px rgb(118, 118, 118);
+}
+.cardText ul{
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardText img{
+    width: 40px;
+} 
+.salesCard{
+    background-color: orange;
+    padding: 5px;
+}
+.salesCard a{
+    color: white;
+}
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.series {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.discount {
+    background: #ff3d2e;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 10px;
+}   
+.game-container {
+    display: flex;
+    gap: 15px;                
+    justify-content: center;   
+    flex-wrap: wrap;           
+}
+
+.game-card1{
+    display: flex;
+    gap: 15px;                
+    justify-content: center;   
+    flex-wrap: wrap; 
+}
